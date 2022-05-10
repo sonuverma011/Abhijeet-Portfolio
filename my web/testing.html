@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        header {
+            margin: auto;
+            background-color: rgb(52 33 62);
+            padding: 20px 20px;
+            color: bisque;
+        }
+
+        .welcome {
+            margin: 9px 33%;
+            font-size: 35px;
+            font-weight: bolder;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            height: 500px;
+        }
+
+        .snav{
+            background-color: rgb(78 142 101);
+        }
+        
+        .snavmenu{
+            list-style: none;
+            padding-inline-start: 1px;
+            margin: 50px 0px;
+        }
+
+        .snavmenu li{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: burlywood;
+        }
+
+        .snavli a{
+            text-decoration: none;
+            color: rgb(215 164 182);
+        }
+        
+        .snavli{
+            line-height: 50px;
+            width: 130px;
+            height:50px;
+            padding: 2px 16px;
+        }
+
+        .snavli:hover{
+            background-color: rgb(151 249 197);;
+            color: rgb(154, 90, 219);
+        }
+
+
+        .bodycontent {
+            Width: 90%;
+            background-color: rgb(151 249 197);
+        }
+
+        .personal {
+            width: 300px;
+            height: 200px;
+            background-color: rgb(78 142 101);
+            margin-top: 100px;
+            margin-left: 280px;
+        }
+
+        .professional {
+            width: 300px;
+            height: 200px;
+            background-color: rgb(78 142 101);
+            margin-top: -200px;
+            margin-left: 625px;
+        }
+
+        .fcontent {
+            background-color: rgb(52 33 62);
+            color: bisque;
+            height: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <p class="welcome">Welcome to My Website</p>
+    </header>
+    <div class="container">
+        <div class="snav">
+            <ul class="snavmenu">
+                <div class="snavli">
+                    <li><a href="#">HOME</a></li>
+                </div>
+                <div class="snavli">
+                    <li><a href="#">ABOUT</a></li>
+                </div>
+                <div class="snavli">
+                    <li><a href="#">ACADEMICS</a></li>
+                </div>
+                <div class="snavli">
+                    <li><a href="#">RESUME</a></li>
+                </div>
+                <div class="snavli">
+                    <li><a href="#">RECENT</a></li>
+                </div>
+                <div class="snavli">
+                    <li><a href="contact.html" target="_self">CONTACT</a></li>
+                </div>
+            </ul>
+        </div>
+        <div class="bodycontent">
+            <div class="personal">
+                <span>PERSONIFIED<Br>DATA</span>
+            </div>
+            <div class="professional">
+                <span>PROFESSIONAL<Br>DATA</span>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="fcontent">
+                <span>
+                    Thanks for Visiting My Website
+                </span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

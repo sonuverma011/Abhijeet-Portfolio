@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bangers&family=Dancing+Script:wght@600&family=Righteous&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-image: url("https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+
+        header {
+            margin: auto;
+            background-color: rgb(19 4 27 / 78%);
+            padding: 20px 20px;
+            color: bisque;
+        }
+
+        .welcome {
+            margin: 9px 40%;
+            font-size: 35px;
+            font-family: 'Bangers', cursive;
+            text-align: center;
+            color: #000000;
+            text-shadow: 5px 1px 40px #76e7ff;
+        }
+
+        .container {
+            display: flex;
+            height: 600px;
+        }
+
+        .snav {
+            background-color: rgb(50 6 73 / 67%);
+        }
+
+        .snavmenu {
+            list-style: none;
+            padding-inline-start: 1px;
+            margin: 50px 0px;
+        }
+
+        .snavmenu li {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: burlywood;
+        }
+
+        .snavli a {
+            text-decoration: none;
+            color: rgb(215 164 182);
+        }
+
+        .snavli {
+            line-height: 50px;
+            width: 130px;
+            height: 50px;
+            padding: 2px 16px;
+        }
+
+        .snavli:hover {
+            background-color: rgb(68 81 171 / 67%);
+            color: rgb(173, 156, 191);
+        }
+
+        .bodycontent {
+            Width: 90%;
+            display: inline-block;
+            background-color: rgb(115 57 176 / 67%);
+        }
+
+        .personal {
+            position: absolute;
+            left: 30%;
+            top: 30%;
+            width: 300px;
+            height: 225px;
+            padding: 20px 25px;
+            background-color: rgb(50 6 73 / 67%);
+            border-radius: 10px;
+            color: aliceblue;
+            font-size: 25px;
+        }
+
+        .professional {
+            position: absolute;
+            left: 55%;
+            top: 30%;
+            width: 300px;
+            height: 225px;
+            padding: 20px 25px;
+            background-color: rgb(50 6 73 / 67%);
+            border-radius: 10px;
+            color: aliceblue;
+            font-size: 25px;
+        }
+
+        .fcontent {
+            background-color: rgb(19 4 27 / 78%);
+            color: bisque;
+            height: 150px;
+        }
+
+        .fcontent span {
+            margin: 0% 31%;
+            font-size: 52px;
+            font-family: 'Bangers', cursive;
+            text-align: center;
+            color: #ffaaaa;
+            text-shadow: 5px 1px 40px #ffe680;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <p class="welcome">Welcome to My Website</p>
+    </header>
+    <div class="container">
+        <div class="snav">
+            <ul class="snavmenu">
+                <div class="snavli">
+                    <li><a href="#">HOME</a></li>
+                </div>
+                <div class="snavli">
+                    <li><a href="portfolio_about.html">ABOUT</a></li>
+                </div>
+                <div class="snavli">
+                    <li><a href="#">ACADEMICS</a></li>
+                </div>
+                <div class="snavli">
+                    <li><a href="#">RESUME</a></li>
+                </div>
+                <div class="snavli">
+                    <li><a href="#">RECENT</a></li>
+                </div>
+                <div class="snavli">
+                    <li><a href="contact.html" target="_self">CONTACT</a></li>
+                </div>
+                <div class="snavli">
+                    <li><a href="LOGIN.PHP" target="_self">LOGIN</a></li>
+                </div>
+            </ul>
+        </div>
+        <div class="bodycontent">
+            <div class="personal">
+                <span>PERSONIFIED<Br>DATA</span>
+            </div>
+            <div class="professional">
+                <span>PROFESSIONAL<Br>DATA</span>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="fcontent">
+                <span>
+                    Thanks for Visiting My Website
+                </span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
